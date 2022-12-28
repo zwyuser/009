@@ -1,0 +1,34 @@
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			.nav{
+				text-align: center;
+			}
+			.nav img{
+				width: 126px;
+				height: 206px;
+			}
+		</style>
+		<script>
+			function qwe(){
+				alert("你好，有事吗？");
+			}
+			function qwefouse(){
+				var a=document.getElementById("demo");
+				alert("继续")
+			}
+		</script>
+	</head>
+	<body onload="qwe()">
+		<div class="nav">
+			<img src="图片1.0.jpg" >
+			<br />
+			<input type="text" onchange="qwefouse()" id="demo" onblur="qwefouse()"/>
+		</div>
+	</body>
+</html>
